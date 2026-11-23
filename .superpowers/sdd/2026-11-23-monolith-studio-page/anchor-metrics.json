@@ -1,0 +1,1018 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "info": {
+      "vh": 900,
+      "maxScroll": 8868,
+      "docHeight": 9768,
+      "sections": [
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-ink relative flex min-h-[100svh] flex-col overflow-hid",
+          "top": 0,
+          "height": 1003,
+          "text": "WE SHAPEquiet,DELIBERATEdigita"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper relative border-b border-line-light",
+          "top": 1003,
+          "height": 1726,
+          "text": "01 / 关于少，不是更少。是刚刚好。少，少，不是更少。不是"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light py-[clamp(6rem,12vw,1",
+          "top": 2729,
+          "height": 3103,
+          "text": "02 / 精选作品2023—2026BLANK FURNIT"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light",
+          "top": 5832,
+          "height": 97,
+          "text": "合作客户BLANK、NORTH/34、HANDLE、SLOW"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-ink border-b border-line-dark py-[clamp(6rem,12vw,11re",
+          "top": 5929,
+          "height": 990,
+          "text": "03 / 能力 WHATWE DO 我们能做什么01品牌识别"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-ink border-b border-line-dark py-[clamp(5rem,10vw,9rem",
+          "top": 6919,
+          "height": 431,
+          "text": "工作室数字交付项目0设计奖项0年持续实践00国家与地区00"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light py-[clamp(6rem,12vw,1",
+          "top": 7350,
+          "height": 670,
+          "text": "04 / 理念FORM FOLLOWS FEELING — "
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper relative overflow-hidden py-[clamp(6rem,12vw,11r",
+          "top": 8020,
+          "height": 990,
+          "text": "05 / 联系LET'S MAKESOMETHINGquie"
+        }
+      ],
+      "aboutChildren": [
+        {
+          "tag": "DIV",
+          "cls": "shell pt-[clamp(5rem,10vw,9rem)]",
+          "top": 1003,
+          "height": 161
+        },
+        {
+          "tag": "P",
+          "cls": "sr-only",
+          "top": 1162,
+          "height": 1
+        },
+        {
+          "tag": "DIV",
+          "cls": "relative z-0 h-[140vh]",
+          "top": 1163,
+          "height": 1260
+        },
+        {
+          "tag": "DIV",
+          "cls": "shell grid gap-10 pb-[clamp(6rem,12vw,11rem)] md:grid-cols-12",
+          "top": 2423,
+          "height": 305
+        }
+      ],
+      "aboutShells": [
+        {
+          "top": 1003,
+          "height": 161
+        },
+        {
+          "top": 2423,
+          "height": 305
+        }
+      ],
+      "reveal": [
+        {
+          "sel": "#about div[class*=\"h-[140vh]\"]",
+          "tag": "DIV",
+          "cls": "relative z-0 h-[140vh]",
+          "top": 1163,
+          "height": 1260,
+          "text": "少，少，不是更少。不是更少。是刚刚好。是刚刚好。"
+        }
+      ],
+      "revealSticky": [
+        {
+          "top": 1163,
+          "height": 630
+        }
+      ],
+      "workCards": [
+        {
+          "top": 2987,
+          "height": 1107,
+          "text": "BLANK FURNITURE01 — 2026"
+        },
+        {
+          "top": 3083,
+          "height": 717,
+          "text": "NORTH / 3402 — 2025 VIEW"
+        },
+        {
+          "top": 4159,
+          "height": 696,
+          "text": "HANDLE — OBJECTS03 — 202"
+        },
+        {
+          "top": 4159,
+          "height": 652,
+          "text": "SSLOW PRESS04 — 2024 VIE"
+        },
+        {
+          "top": 4918,
+          "height": 740,
+          "text": "ATLAS — DENSITY05 — 2024"
+        }
+      ],
+      "workGridChildren": [
+        {
+          "top": 2987,
+          "height": 1107,
+          "cls": "lg:col-span-7",
+          "text": "BLANK FURNITURE01 — 2026"
+        },
+        {
+          "top": 3083,
+          "height": 1011,
+          "cls": "lg:col-span-4 lg:col-start-9 lg:mt-24",
+          "text": "NORTH / 3402 — 2025 VIEW"
+        },
+        {
+          "top": 4159,
+          "height": 696,
+          "cls": "lg:col-span-5",
+          "text": "HANDLE — OBJECTS03 — 202"
+        },
+        {
+          "top": 4159,
+          "height": 696,
+          "cls": "lg:col-span-6 lg:col-start-7",
+          "text": "SSLOW PRESS04 — 2024 VIE"
+        },
+        {
+          "top": 4918,
+          "height": 740,
+          "cls": "lg:col-span-12",
+          "text": "ATLAS — DENSITY05 — 2024"
+        }
+      ],
+      "marquee": [
+        {
+          "sel": "#work + section",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light",
+          "top": 5832,
+          "height": 97,
+          "text": "合作客户BLANK、NORTH/34、HANDLE、SLOW"
+        }
+      ],
+      "capabilities": [
+        {
+          "sel": "#capabilities",
+          "tag": "SECTION",
+          "cls": "theme-ink border-b border-line-dark py-[clamp(6rem,12vw,11re",
+          "top": 5929,
+          "height": 990,
+          "text": "03 / 能力 WHATWE DO 我们能做什么01品牌识别"
+        }
+      ],
+      "statsChildren": [
+        {
+          "top": 7063,
+          "height": 142,
+          "cls": "shell"
+        }
+      ],
+      "stats": [
+        {
+          "sel": "#stats",
+          "tag": "SECTION",
+          "cls": "theme-ink border-b border-line-dark py-[clamp(5rem,10vw,9rem",
+          "top": 6919,
+          "height": 431,
+          "text": "工作室数字交付项目0设计奖项0年持续实践00国家与地区00"
+        }
+      ],
+      "philosophy": [
+        {
+          "sel": "#philosophy",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light py-[clamp(6rem,12vw,1",
+          "top": 7350,
+          "height": 670,
+          "text": "04 / 理念FORM FOLLOWS FEELING — "
+        }
+      ],
+      "contact": [
+        {
+          "sel": "#contact",
+          "tag": "SECTION",
+          "cls": "theme-paper relative overflow-hidden py-[clamp(6rem,12vw,11r",
+          "top": 8020,
+          "height": 990,
+          "text": "05 / 联系LET'S MAKESOMETHINGquie"
+        }
+      ],
+      "footer": [],
+      "main": [
+        {
+          "sel": "#main",
+          "tag": "MAIN",
+          "cls": "min-h-screen",
+          "top": 0,
+          "height": 9010,
+          "text": "WE SHAPEquiet,DELIBERATEdigita"
+        }
+      ]
+    }
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "info": {
+      "vh": 844,
+      "maxScroll": 8113,
+      "docHeight": 8957,
+      "sections": [
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-ink relative flex min-h-[100svh] flex-col overflow-hid",
+          "top": 0,
+          "height": 844,
+          "text": "WE SHAPEquiet,DELIBERATEdigita"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper relative border-b border-line-light",
+          "top": 844,
+          "height": 1635,
+          "text": "01 / 关于少，不是更少。是刚刚好。少，少，不是更少。不是"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light py-[clamp(6rem,12vw,1",
+          "top": 2479,
+          "height": 2969,
+          "text": "02 / 精选作品2023—2026BLANK FURNIT"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light",
+          "top": 5447,
+          "height": 79,
+          "text": "合作客户BLANK、NORTH/34、HANDLE、SLOW"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-ink border-b border-line-dark py-[clamp(6rem,12vw,11re",
+          "top": 5526,
+          "height": 974,
+          "text": "03 / 能力 WHATWE DO 我们能做什么01品牌识别"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-ink border-b border-line-dark py-[clamp(5rem,10vw,9rem",
+          "top": 6501,
+          "height": 417,
+          "text": "工作室数字交付项目0设计奖项0年持续实践00国家与地区00"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light py-[clamp(6rem,12vw,1",
+          "top": 6918,
+          "height": 414,
+          "text": "04 / 理念FORM FOLLOWS FEELING — "
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper relative overflow-hidden py-[clamp(6rem,12vw,11r",
+          "top": 7331,
+          "height": 650,
+          "text": "05 / 联系LET'S MAKESOMETHINGquie"
+        }
+      ],
+      "aboutChildren": [
+        {
+          "tag": "DIV",
+          "cls": "shell pt-[clamp(5rem,10vw,9rem)]",
+          "top": 844,
+          "height": 97
+        },
+        {
+          "tag": "P",
+          "cls": "sr-only",
+          "top": 940,
+          "height": 1
+        },
+        {
+          "tag": "DIV",
+          "cls": "relative z-0 h-[140vh]",
+          "top": 941,
+          "height": 1182
+        },
+        {
+          "tag": "DIV",
+          "cls": "shell grid gap-10 pb-[clamp(6rem,12vw,11rem)] md:grid-cols-12",
+          "top": 2122,
+          "height": 355
+        }
+      ],
+      "aboutShells": [
+        {
+          "top": 844,
+          "height": 97
+        },
+        {
+          "top": 2122,
+          "height": 355
+        }
+      ],
+      "reveal": [
+        {
+          "sel": "#about div[class*=\"h-[140vh]\"]",
+          "tag": "DIV",
+          "cls": "relative z-0 h-[140vh]",
+          "top": 941,
+          "height": 1182,
+          "text": "少，少，不是更少。不是更少。是刚刚好。是刚刚好。"
+        }
+      ],
+      "revealSticky": [
+        {
+          "top": 941,
+          "height": 591
+        }
+      ],
+      "workCards": [
+        {
+          "top": 2660,
+          "height": 586,
+          "text": "BLANK FURNITURE01 — 2026"
+        },
+        {
+          "top": 3310,
+          "height": 613,
+          "text": "NORTH / 3402 — 2025 VIEW"
+        },
+        {
+          "top": 3987,
+          "height": 503,
+          "text": "HANDLE — OBJECTS03 — 202"
+        },
+        {
+          "top": 4554,
+          "height": 420,
+          "text": "SSLOW PRESS04 — 2024 VIE"
+        },
+        {
+          "top": 5037,
+          "height": 313,
+          "text": "ATLAS — DENSITY05 — 2024"
+        }
+      ],
+      "workGridChildren": [
+        {
+          "top": 2660,
+          "height": 586,
+          "cls": "lg:col-span-7",
+          "text": "BLANK FURNITURE01 — 2026"
+        },
+        {
+          "top": 3310,
+          "height": 613,
+          "cls": "lg:col-span-4 lg:col-start-9 lg:mt-24",
+          "text": "NORTH / 3402 — 2025 VIEW"
+        },
+        {
+          "top": 3987,
+          "height": 503,
+          "cls": "lg:col-span-5",
+          "text": "HANDLE — OBJECTS03 — 202"
+        },
+        {
+          "top": 4554,
+          "height": 420,
+          "cls": "lg:col-span-6 lg:col-start-7",
+          "text": "SSLOW PRESS04 — 2024 VIE"
+        },
+        {
+          "top": 5037,
+          "height": 313,
+          "cls": "lg:col-span-12",
+          "text": "ATLAS — DENSITY05 — 2024"
+        }
+      ],
+      "marquee": [
+        {
+          "sel": "#work + section",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light",
+          "top": 5447,
+          "height": 79,
+          "text": "合作客户BLANK、NORTH/34、HANDLE、SLOW"
+        }
+      ],
+      "capabilities": [
+        {
+          "sel": "#capabilities",
+          "tag": "SECTION",
+          "cls": "theme-ink border-b border-line-dark py-[clamp(6rem,12vw,11re",
+          "top": 5526,
+          "height": 974,
+          "text": "03 / 能力 WHATWE DO 我们能做什么01品牌识别"
+        }
+      ],
+      "statsChildren": [
+        {
+          "top": 6581,
+          "height": 256,
+          "cls": "shell"
+        }
+      ],
+      "stats": [
+        {
+          "sel": "#stats",
+          "tag": "SECTION",
+          "cls": "theme-ink border-b border-line-dark py-[clamp(5rem,10vw,9rem",
+          "top": 6501,
+          "height": 417,
+          "text": "工作室数字交付项目0设计奖项0年持续实践00国家与地区00"
+        }
+      ],
+      "philosophy": [
+        {
+          "sel": "#philosophy",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light py-[clamp(6rem,12vw,1",
+          "top": 6918,
+          "height": 414,
+          "text": "04 / 理念FORM FOLLOWS FEELING — "
+        }
+      ],
+      "contact": [
+        {
+          "sel": "#contact",
+          "tag": "SECTION",
+          "cls": "theme-paper relative overflow-hidden py-[clamp(6rem,12vw,11r",
+          "top": 7331,
+          "height": 650,
+          "text": "05 / 联系LET'S MAKESOMETHINGquie"
+        }
+      ],
+      "footer": [],
+      "main": [
+        {
+          "sel": "#main",
+          "tag": "MAIN",
+          "cls": "min-h-screen",
+          "top": 0,
+          "height": 7981,
+          "text": "WE SHAPEquiet,DELIBERATEdigita"
+        }
+      ]
+    }
+  },
+  {
+    "width": 1440,
+    "height": 1000,
+    "info": {
+      "vh": 1000,
+      "maxScroll": 8908,
+      "docHeight": 9908,
+      "sections": [
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-ink relative flex min-h-[100svh] flex-col overflow-hid",
+          "top": 0,
+          "height": 1003,
+          "text": "WE SHAPEquiet,DELIBERATEdigita"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper relative border-b border-line-light",
+          "top": 1003,
+          "height": 1866,
+          "text": "01 / 关于少，不是更少。是刚刚好。少，少，不是更少。不是"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light py-[clamp(6rem,12vw,1",
+          "top": 2869,
+          "height": 3103,
+          "text": "02 / 精选作品2023—2026BLANK FURNIT"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light",
+          "top": 5972,
+          "height": 97,
+          "text": "合作客户BLANK、NORTH/34、HANDLE、SLOW"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-ink border-b border-line-dark py-[clamp(6rem,12vw,11re",
+          "top": 6069,
+          "height": 990,
+          "text": "03 / 能力 WHATWE DO 我们能做什么01品牌识别"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-ink border-b border-line-dark py-[clamp(5rem,10vw,9rem",
+          "top": 7059,
+          "height": 431,
+          "text": "工作室数字交付项目0设计奖项0年持续实践00国家与地区00"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light py-[clamp(6rem,12vw,1",
+          "top": 7490,
+          "height": 670,
+          "text": "04 / 理念FORM FOLLOWS FEELING — "
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper relative overflow-hidden py-[clamp(6rem,12vw,11r",
+          "top": 8160,
+          "height": 990,
+          "text": "05 / 联系LET'S MAKESOMETHINGquie"
+        }
+      ],
+      "aboutChildren": [
+        {
+          "tag": "DIV",
+          "cls": "shell pt-[clamp(5rem,10vw,9rem)]",
+          "top": 1003,
+          "height": 161
+        },
+        {
+          "tag": "P",
+          "cls": "sr-only",
+          "top": 1162,
+          "height": 1
+        },
+        {
+          "tag": "DIV",
+          "cls": "relative z-0 h-[140vh]",
+          "top": 1163,
+          "height": 1400
+        },
+        {
+          "tag": "DIV",
+          "cls": "shell grid gap-10 pb-[clamp(6rem,12vw,11rem)] md:grid-cols-12",
+          "top": 2563,
+          "height": 305
+        }
+      ],
+      "aboutShells": [
+        {
+          "top": 1003,
+          "height": 161
+        },
+        {
+          "top": 2563,
+          "height": 305
+        }
+      ],
+      "reveal": [
+        {
+          "sel": "#about div[class*=\"h-[140vh]\"]",
+          "tag": "DIV",
+          "cls": "relative z-0 h-[140vh]",
+          "top": 1163,
+          "height": 1400,
+          "text": "少，少，不是更少。不是更少。是刚刚好。是刚刚好。"
+        }
+      ],
+      "revealSticky": [
+        {
+          "top": 1163,
+          "height": 700
+        }
+      ],
+      "workCards": [
+        {
+          "top": 3127,
+          "height": 1107,
+          "text": "BLANK FURNITURE01 — 2026"
+        },
+        {
+          "top": 3223,
+          "height": 717,
+          "text": "NORTH / 3402 — 2025 VIEW"
+        },
+        {
+          "top": 4299,
+          "height": 696,
+          "text": "HANDLE — OBJECTS03 — 202"
+        },
+        {
+          "top": 4299,
+          "height": 652,
+          "text": "SSLOW PRESS04 — 2024 VIE"
+        },
+        {
+          "top": 5058,
+          "height": 740,
+          "text": "ATLAS — DENSITY05 — 2024"
+        }
+      ],
+      "workGridChildren": [
+        {
+          "top": 3127,
+          "height": 1107,
+          "cls": "lg:col-span-7",
+          "text": "BLANK FURNITURE01 — 2026"
+        },
+        {
+          "top": 3223,
+          "height": 1011,
+          "cls": "lg:col-span-4 lg:col-start-9 lg:mt-24",
+          "text": "NORTH / 3402 — 2025 VIEW"
+        },
+        {
+          "top": 4299,
+          "height": 696,
+          "cls": "lg:col-span-5",
+          "text": "HANDLE — OBJECTS03 — 202"
+        },
+        {
+          "top": 4299,
+          "height": 696,
+          "cls": "lg:col-span-6 lg:col-start-7",
+          "text": "SSLOW PRESS04 — 2024 VIE"
+        },
+        {
+          "top": 5058,
+          "height": 740,
+          "cls": "lg:col-span-12",
+          "text": "ATLAS — DENSITY05 — 2024"
+        }
+      ],
+      "marquee": [
+        {
+          "sel": "#work + section",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light",
+          "top": 5972,
+          "height": 97,
+          "text": "合作客户BLANK、NORTH/34、HANDLE、SLOW"
+        }
+      ],
+      "capabilities": [
+        {
+          "sel": "#capabilities",
+          "tag": "SECTION",
+          "cls": "theme-ink border-b border-line-dark py-[clamp(6rem,12vw,11re",
+          "top": 6069,
+          "height": 990,
+          "text": "03 / 能力 WHATWE DO 我们能做什么01品牌识别"
+        }
+      ],
+      "statsChildren": [
+        {
+          "top": 7203,
+          "height": 142,
+          "cls": "shell"
+        }
+      ],
+      "stats": [
+        {
+          "sel": "#stats",
+          "tag": "SECTION",
+          "cls": "theme-ink border-b border-line-dark py-[clamp(5rem,10vw,9rem",
+          "top": 7059,
+          "height": 431,
+          "text": "工作室数字交付项目0设计奖项0年持续实践00国家与地区00"
+        }
+      ],
+      "philosophy": [
+        {
+          "sel": "#philosophy",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light py-[clamp(6rem,12vw,1",
+          "top": 7490,
+          "height": 670,
+          "text": "04 / 理念FORM FOLLOWS FEELING — "
+        }
+      ],
+      "contact": [
+        {
+          "sel": "#contact",
+          "tag": "SECTION",
+          "cls": "theme-paper relative overflow-hidden py-[clamp(6rem,12vw,11r",
+          "top": 8160,
+          "height": 990,
+          "text": "05 / 联系LET'S MAKESOMETHINGquie"
+        }
+      ],
+      "footer": [],
+      "main": [
+        {
+          "sel": "#main",
+          "tag": "MAIN",
+          "cls": "min-h-screen",
+          "top": 0,
+          "height": 9150,
+          "text": "WE SHAPEquiet,DELIBERATEdigita"
+        }
+      ]
+    }
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "info": {
+      "vh": 1080,
+      "maxScroll": 9088,
+      "docHeight": 10168,
+      "sections": [
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-ink relative flex min-h-[100svh] flex-col overflow-hid",
+          "top": 0,
+          "height": 1080,
+          "text": "WE SHAPEquiet,DELIBERATEdigita"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper relative border-b border-line-light",
+          "top": 1080,
+          "height": 1982,
+          "text": "01 / 关于少，不是更少。是刚刚好。少，少，不是更少。不是"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light py-[clamp(6rem,12vw,1",
+          "top": 3062,
+          "height": 3089,
+          "text": "02 / 精选作品2023—2026BLANK FURNIT"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light",
+          "top": 6151,
+          "height": 97,
+          "text": "合作客户BLANK、NORTH/34、HANDLE、SLOW"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-ink border-b border-line-dark py-[clamp(6rem,12vw,11re",
+          "top": 6248,
+          "height": 996,
+          "text": "03 / 能力 WHATWE DO 我们能做什么01品牌识别"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-ink border-b border-line-dark py-[clamp(5rem,10vw,9rem",
+          "top": 7244,
+          "height": 433,
+          "text": "工作室数字交付项目0设计奖项0年持续实践00国家与地区00"
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light py-[clamp(6rem,12vw,1",
+          "top": 7677,
+          "height": 694,
+          "text": "04 / 理念FORM FOLLOWS FEELING — "
+        },
+        {
+          "sel": "#main > section",
+          "tag": "SECTION",
+          "cls": "theme-paper relative overflow-hidden py-[clamp(6rem,12vw,11r",
+          "top": 8370,
+          "height": 1040,
+          "text": "05 / 联系LET'S MAKESOMETHINGquie"
+        }
+      ],
+      "aboutChildren": [
+        {
+          "tag": "DIV",
+          "cls": "shell pt-[clamp(5rem,10vw,9rem)]",
+          "top": 1080,
+          "height": 161
+        },
+        {
+          "tag": "P",
+          "cls": "sr-only",
+          "top": 1240,
+          "height": 1
+        },
+        {
+          "tag": "DIV",
+          "cls": "relative z-0 h-[140vh]",
+          "top": 1241,
+          "height": 1512
+        },
+        {
+          "tag": "DIV",
+          "cls": "shell grid gap-10 pb-[clamp(6rem,12vw,11rem)] md:grid-cols-12",
+          "top": 2753,
+          "height": 308
+        }
+      ],
+      "aboutShells": [
+        {
+          "top": 1080,
+          "height": 161
+        },
+        {
+          "top": 2753,
+          "height": 308
+        }
+      ],
+      "reveal": [
+        {
+          "sel": "#about div[class*=\"h-[140vh]\"]",
+          "tag": "DIV",
+          "cls": "relative z-0 h-[140vh]",
+          "top": 1241,
+          "height": 1512,
+          "text": "少，少，不是更少。不是更少。是刚刚好。是刚刚好。"
+        }
+      ],
+      "revealSticky": [
+        {
+          "top": 1241,
+          "height": 756
+        }
+      ],
+      "workCards": [
+        {
+          "top": 3323,
+          "height": 1098,
+          "text": "BLANK FURNITURE01 — 2026"
+        },
+        {
+          "top": 3419,
+          "height": 711,
+          "text": "NORTH / 3402 — 2025 VIEW"
+        },
+        {
+          "top": 4485,
+          "height": 690,
+          "text": "HANDLE — OBJECTS03 — 202"
+        },
+        {
+          "top": 4485,
+          "height": 647,
+          "text": "SSLOW PRESS04 — 2024 VIE"
+        },
+        {
+          "top": 5239,
+          "height": 735,
+          "text": "ATLAS — DENSITY05 — 2024"
+        }
+      ],
+      "workGridChildren": [
+        {
+          "top": 3323,
+          "height": 1098,
+          "cls": "lg:col-span-7",
+          "text": "BLANK FURNITURE01 — 2026"
+        },
+        {
+          "top": 3419,
+          "height": 1002,
+          "cls": "lg:col-span-4 lg:col-start-9 lg:mt-24",
+          "text": "NORTH / 3402 — 2025 VIEW"
+        },
+        {
+          "top": 4485,
+          "height": 690,
+          "cls": "lg:col-span-5",
+          "text": "HANDLE — OBJECTS03 — 202"
+        },
+        {
+          "top": 4485,
+          "height": 690,
+          "cls": "lg:col-span-6 lg:col-start-7",
+          "text": "SSLOW PRESS04 — 2024 VIE"
+        },
+        {
+          "top": 5239,
+          "height": 735,
+          "cls": "lg:col-span-12",
+          "text": "ATLAS — DENSITY05 — 2024"
+        }
+      ],
+      "marquee": [
+        {
+          "sel": "#work + section",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light",
+          "top": 6151,
+          "height": 97,
+          "text": "合作客户BLANK、NORTH/34、HANDLE、SLOW"
+        }
+      ],
+      "capabilities": [
+        {
+          "sel": "#capabilities",
+          "tag": "SECTION",
+          "cls": "theme-ink border-b border-line-dark py-[clamp(6rem,12vw,11re",
+          "top": 6248,
+          "height": 996,
+          "text": "03 / 能力 WHATWE DO 我们能做什么01品牌识别"
+        }
+      ],
+      "statsChildren": [
+        {
+          "top": 7388,
+          "height": 144,
+          "cls": "shell"
+        }
+      ],
+      "stats": [
+        {
+          "sel": "#stats",
+          "tag": "SECTION",
+          "cls": "theme-ink border-b border-line-dark py-[clamp(5rem,10vw,9rem",
+          "top": 7244,
+          "height": 433,
+          "text": "工作室数字交付项目0设计奖项0年持续实践00国家与地区00"
+        }
+      ],
+      "philosophy": [
+        {
+          "sel": "#philosophy",
+          "tag": "SECTION",
+          "cls": "theme-paper border-b border-line-light py-[clamp(6rem,12vw,1",
+          "top": 7677,
+          "height": 694,
+          "text": "04 / 理念FORM FOLLOWS FEELING — "
+        }
+      ],
+      "contact": [
+        {
+          "sel": "#contact",
+          "tag": "SECTION",
+          "cls": "theme-paper relative overflow-hidden py-[clamp(6rem,12vw,11r",
+          "top": 8370,
+          "height": 1040,
+          "text": "05 / 联系LET'S MAKESOMETHINGquie"
+        }
+      ],
+      "footer": [],
+      "main": [
+        {
+          "sel": "#main",
+          "tag": "MAIN",
+          "cls": "min-h-screen",
+          "top": 0,
+          "height": 9410,
+          "text": "WE SHAPEquiet,DELIBERATEdigita"
+        }
+      ]
+    }
+  }
+]

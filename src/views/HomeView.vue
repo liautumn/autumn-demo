@@ -4,6 +4,7 @@ import ClientsMarquee from '@/components/site/ClientsMarquee.vue'
 import ContactSection from '@/components/site/ContactSection.vue'
 import HeroSection from '@/components/site/HeroSection.vue'
 import ManifestoSection from '@/components/site/ManifestoSection.vue'
+import PagePager from '@/components/site/PagePager.vue'
 import PhilosophySection from '@/components/site/PhilosophySection.vue'
 import StatsSection from '@/components/site/StatsSection.vue'
 import WorkSection from '@/components/site/WorkSection.vue'
@@ -20,4 +21,5 @@ import WorkSection from '@/components/site/WorkSection.vue'
     <PhilosophySection />
     <ContactSection />
   </main>
+  <PagePager />
 </template>

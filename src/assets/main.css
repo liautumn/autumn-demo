@@ -77,6 +77,17 @@
   }
 }
 
+html.page-pager-active {
+  overscroll-behavior-y: none;
+}
+
+.page-slide {
+  position: relative;
+  height: 100svh;
+  height: 100dvh;
+  overflow: hidden;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

@@ -1,0 +1,1081 @@
+{
+  "console": [],
+  "viewports": {
+    "390x844": {
+      "innerHeight": 844,
+      "innerWidth": 390,
+      "scrollHeight": 10972,
+      "scrollWidth": 390,
+      "pages": [
+        {
+          "anchor": "hero",
+          "id": "hero",
+          "tag": "section",
+          "top": 0,
+          "height": 844,
+          "scrollHeight": 844,
+          "clientHeight": 844,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "about",
+          "id": "about",
+          "tag": "section",
+          "top": 844,
+          "height": 844,
+          "scrollHeight": 843,
+          "clientHeight": 843,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-1",
+          "id": "work",
+          "tag": "section",
+          "top": 1688,
+          "height": 844,
+          "scrollHeight": 843,
+          "clientHeight": 843,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-2",
+          "id": null,
+          "tag": "section",
+          "top": 2532,
+          "height": 844,
+          "scrollHeight": 843,
+          "clientHeight": 843,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-3",
+          "id": null,
+          "tag": "section",
+          "top": 3376,
+          "height": 844,
+          "scrollHeight": 843,
+          "clientHeight": 843,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-4",
+          "id": null,
+          "tag": "section",
+          "top": 4220,
+          "height": 844,
+          "scrollHeight": 843,
+          "clientHeight": 843,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-5",
+          "id": null,
+          "tag": "section",
+          "top": 5064,
+          "height": 844,
+          "scrollHeight": 843,
+          "clientHeight": 843,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "clients",
+          "id": null,
+          "tag": "section",
+          "top": 5908,
+          "height": 844,
+          "scrollHeight": 843,
+          "clientHeight": 843,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "capabilities",
+          "id": "capabilities",
+          "tag": "section",
+          "top": 6752,
+          "height": 844,
+          "scrollHeight": 843,
+          "clientHeight": 843,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "stats",
+          "id": "stats",
+          "tag": "section",
+          "top": 7596,
+          "height": 844,
+          "scrollHeight": 843,
+          "clientHeight": 843,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "philosophy",
+          "id": "philosophy",
+          "tag": "section",
+          "top": 8440,
+          "height": 844,
+          "scrollHeight": 843,
+          "clientHeight": 843,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "contact",
+          "id": "contact",
+          "tag": "section",
+          "top": 9284,
+          "height": 844,
+          "scrollHeight": 844,
+          "clientHeight": 844,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "footer",
+          "id": null,
+          "tag": "footer",
+          "top": 10128,
+          "height": 844,
+          "scrollHeight": 843,
+          "clientHeight": 843,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        }
+      ]
+    },
+    "768x900": {
+      "innerHeight": 900,
+      "innerWidth": 768,
+      "scrollHeight": 11700,
+      "scrollWidth": 768,
+      "pages": [
+        {
+          "anchor": "hero",
+          "id": "hero",
+          "tag": "section",
+          "top": 0,
+          "height": 900,
+          "scrollHeight": 900,
+          "clientHeight": 900,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "about",
+          "id": "about",
+          "tag": "section",
+          "top": 900,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-1",
+          "id": "work",
+          "tag": "section",
+          "top": 1800,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-2",
+          "id": null,
+          "tag": "section",
+          "top": 2700,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-3",
+          "id": null,
+          "tag": "section",
+          "top": 3600,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-4",
+          "id": null,
+          "tag": "section",
+          "top": 4500,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-5",
+          "id": null,
+          "tag": "section",
+          "top": 5400,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "clients",
+          "id": null,
+          "tag": "section",
+          "top": 6300,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "capabilities",
+          "id": "capabilities",
+          "tag": "section",
+          "top": 7200,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "stats",
+          "id": "stats",
+          "tag": "section",
+          "top": 8100,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "philosophy",
+          "id": "philosophy",
+          "tag": "section",
+          "top": 9000,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "contact",
+          "id": "contact",
+          "tag": "section",
+          "top": 9900,
+          "height": 900,
+          "scrollHeight": 900,
+          "clientHeight": 900,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "footer",
+          "id": null,
+          "tag": "footer",
+          "top": 10800,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        }
+      ]
+    },
+    "1024x768": {
+      "innerHeight": 768,
+      "innerWidth": 1024,
+      "scrollHeight": 9984,
+      "scrollWidth": 1024,
+      "pages": [
+        {
+          "anchor": "hero",
+          "id": "hero",
+          "tag": "section",
+          "top": 0,
+          "height": 768,
+          "scrollHeight": 768,
+          "clientHeight": 768,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "about",
+          "id": "about",
+          "tag": "section",
+          "top": 768,
+          "height": 768,
+          "scrollHeight": 767,
+          "clientHeight": 767,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-1",
+          "id": "work",
+          "tag": "section",
+          "top": 1536,
+          "height": 768,
+          "scrollHeight": 767,
+          "clientHeight": 767,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-2",
+          "id": null,
+          "tag": "section",
+          "top": 2304,
+          "height": 768,
+          "scrollHeight": 767,
+          "clientHeight": 767,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-3",
+          "id": null,
+          "tag": "section",
+          "top": 3072,
+          "height": 768,
+          "scrollHeight": 767,
+          "clientHeight": 767,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-4",
+          "id": null,
+          "tag": "section",
+          "top": 3840,
+          "height": 768,
+          "scrollHeight": 767,
+          "clientHeight": 767,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-5",
+          "id": null,
+          "tag": "section",
+          "top": 4608,
+          "height": 768,
+          "scrollHeight": 767,
+          "clientHeight": 767,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "clients",
+          "id": null,
+          "tag": "section",
+          "top": 5376,
+          "height": 768,
+          "scrollHeight": 767,
+          "clientHeight": 767,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "capabilities",
+          "id": "capabilities",
+          "tag": "section",
+          "top": 6144,
+          "height": 768,
+          "scrollHeight": 767,
+          "clientHeight": 767,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "stats",
+          "id": "stats",
+          "tag": "section",
+          "top": 6912,
+          "height": 768,
+          "scrollHeight": 767,
+          "clientHeight": 767,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "philosophy",
+          "id": "philosophy",
+          "tag": "section",
+          "top": 7680,
+          "height": 768,
+          "scrollHeight": 767,
+          "clientHeight": 767,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "contact",
+          "id": "contact",
+          "tag": "section",
+          "top": 8448,
+          "height": 768,
+          "scrollHeight": 768,
+          "clientHeight": 768,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "footer",
+          "id": null,
+          "tag": "footer",
+          "top": 9216,
+          "height": 768,
+          "scrollHeight": 767,
+          "clientHeight": 767,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        }
+      ]
+    },
+    "1440x900": {
+      "innerHeight": 900,
+      "innerWidth": 1440,
+      "scrollHeight": 11700,
+      "scrollWidth": 1440,
+      "pages": [
+        {
+          "anchor": "hero",
+          "id": "hero",
+          "tag": "section",
+          "top": 0,
+          "height": 900,
+          "scrollHeight": 900,
+          "clientHeight": 900,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "about",
+          "id": "about",
+          "tag": "section",
+          "top": 900,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-1",
+          "id": "work",
+          "tag": "section",
+          "top": 1800,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-2",
+          "id": null,
+          "tag": "section",
+          "top": 2700,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-3",
+          "id": null,
+          "tag": "section",
+          "top": 3600,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-4",
+          "id": null,
+          "tag": "section",
+          "top": 4500,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-5",
+          "id": null,
+          "tag": "section",
+          "top": 5400,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "clients",
+          "id": null,
+          "tag": "section",
+          "top": 6300,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "capabilities",
+          "id": "capabilities",
+          "tag": "section",
+          "top": 7200,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "stats",
+          "id": "stats",
+          "tag": "section",
+          "top": 8100,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "philosophy",
+          "id": "philosophy",
+          "tag": "section",
+          "top": 9000,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "contact",
+          "id": "contact",
+          "tag": "section",
+          "top": 9900,
+          "height": 900,
+          "scrollHeight": 900,
+          "clientHeight": 900,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "footer",
+          "id": null,
+          "tag": "footer",
+          "top": 10800,
+          "height": 900,
+          "scrollHeight": 899,
+          "clientHeight": 899,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        }
+      ]
+    },
+    "1920x1080": {
+      "innerHeight": 1080,
+      "innerWidth": 1920,
+      "scrollHeight": 14040,
+      "scrollWidth": 1920,
+      "pages": [
+        {
+          "anchor": "hero",
+          "id": "hero",
+          "tag": "section",
+          "top": 0,
+          "height": 1080,
+          "scrollHeight": 1080,
+          "clientHeight": 1080,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "about",
+          "id": "about",
+          "tag": "section",
+          "top": 1080,
+          "height": 1080,
+          "scrollHeight": 1079,
+          "clientHeight": 1079,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-1",
+          "id": "work",
+          "tag": "section",
+          "top": 2160,
+          "height": 1080,
+          "scrollHeight": 1079,
+          "clientHeight": 1079,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-2",
+          "id": null,
+          "tag": "section",
+          "top": 3240,
+          "height": 1080,
+          "scrollHeight": 1079,
+          "clientHeight": 1079,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-3",
+          "id": null,
+          "tag": "section",
+          "top": 4320,
+          "height": 1080,
+          "scrollHeight": 1079,
+          "clientHeight": 1079,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-4",
+          "id": null,
+          "tag": "section",
+          "top": 5400,
+          "height": 1080,
+          "scrollHeight": 1079,
+          "clientHeight": 1079,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "work-5",
+          "id": null,
+          "tag": "section",
+          "top": 6480,
+          "height": 1080,
+          "scrollHeight": 1079,
+          "clientHeight": 1079,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "clients",
+          "id": null,
+          "tag": "section",
+          "top": 7560,
+          "height": 1080,
+          "scrollHeight": 1079,
+          "clientHeight": 1079,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "capabilities",
+          "id": "capabilities",
+          "tag": "section",
+          "top": 8640,
+          "height": 1080,
+          "scrollHeight": 1079,
+          "clientHeight": 1079,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "stats",
+          "id": "stats",
+          "tag": "section",
+          "top": 9720,
+          "height": 1080,
+          "scrollHeight": 1079,
+          "clientHeight": 1079,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "philosophy",
+          "id": "philosophy",
+          "tag": "section",
+          "top": 10800,
+          "height": 1080,
+          "scrollHeight": 1079,
+          "clientHeight": 1079,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "contact",
+          "id": "contact",
+          "tag": "section",
+          "top": 11880,
+          "height": 1080,
+          "scrollHeight": 1080,
+          "clientHeight": 1080,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        },
+        {
+          "anchor": "footer",
+          "id": null,
+          "tag": "footer",
+          "top": 12960,
+          "height": 1080,
+          "scrollHeight": 1079,
+          "clientHeight": 1079,
+          "overflow": 0,
+          "shellOverflow": 0,
+          "pageSlide": true
+        }
+      ]
+    }
+  },
+  "pager": {
+    "stops": [
+      0,
+      900,
+      1800,
+      2700,
+      3600,
+      4500,
+      5400,
+      6300,
+      7200,
+      8100,
+      9000,
+      9900,
+      10800
+    ],
+    "pageCount": 13,
+    "spring": {
+      "final": 900,
+      "expected": 900,
+      "peak": 929,
+      "overshoot": 29,
+      "samples": [
+        {
+          "t": 15,
+          "y": 32
+        },
+        {
+          "t": 82,
+          "y": 379
+        },
+        {
+          "t": 149,
+          "y": 702
+        },
+        {
+          "t": 215,
+          "y": 870
+        },
+        {
+          "t": 282,
+          "y": 924
+        },
+        {
+          "t": 348,
+          "y": 926
+        },
+        {
+          "t": 415,
+          "y": 915
+        },
+        {
+          "t": 482,
+          "y": 905
+        },
+        {
+          "t": 548,
+          "y": 901
+        },
+        {
+          "t": 615,
+          "y": 899
+        },
+        {
+          "t": 682,
+          "y": 899
+        },
+        {
+          "t": 748,
+          "y": 900
+        },
+        {
+          "t": 815,
+          "y": 900
+        },
+        {
+          "t": 882,
+          "y": 900
+        },
+        {
+          "t": 948,
+          "y": 900
+        },
+        {
+          "t": 1015,
+          "y": 900
+        },
+        {
+          "t": 1082,
+          "y": 900
+        },
+        {
+          "t": 1148,
+          "y": 900
+        },
+        {
+          "t": 1215,
+          "y": 900
+        },
+        {
+          "t": 1282,
+          "y": 900
+        },
+        {
+          "t": 1348,
+          "y": 900
+        },
+        {
+          "t": 1415,
+          "y": 900
+        },
+        {
+          "t": 1482,
+          "y": 900
+        },
+        {
+          "t": 1548,
+          "y": 900
+        },
+        {
+          "t": 1615,
+          "y": 900
+        }
+      ]
+    },
+    "chain": {
+      "final": 1800,
+      "expected": 1800,
+      "samples": [
+        {
+          "t": 132,
+          "y": 558
+        },
+        {
+          "t": 232,
+          "y": 1359
+        },
+        {
+          "t": 332,
+          "y": 1775
+        },
+        {
+          "t": 432,
+          "y": 1842
+        },
+        {
+          "t": 532,
+          "y": 1819
+        },
+        {
+          "t": 632,
+          "y": 1802
+        },
+        {
+          "t": 732,
+          "y": 1799
+        },
+        {
+          "t": 832,
+          "y": 1799
+        },
+        {
+          "t": 932,
+          "y": 1800
+        },
+        {
+          "t": 1032,
+          "y": 1800
+        },
+        {
+          "t": 1132,
+          "y": 1800
+        },
+        {
+          "t": 1232,
+          "y": 1800
+        },
+        {
+          "t": 1332,
+          "y": 1800
+        },
+        {
+          "t": 1432,
+          "y": 1800
+        },
+        {
+          "t": 1532,
+          "y": 1800
+        },
+        {
+          "t": 1632,
+          "y": 1800
+        },
+        {
+          "t": 1732,
+          "y": 1800
+        }
+      ]
+    },
+    "momentum": {
+      "final": 900,
+      "expected": 900
+    },
+    "keys": {
+      "afterWheel": 900,
+      "afterPageDown": 1800,
+      "afterUp": 900
+    },
+    "nav": {
+      "afterWorkNav": 1800,
+      "workTop": 1800,
+      "hash": "#work"
+    },
+    "workCard": {
+      "before": 1800,
+      "after": 1800
+    },
+    "skip": {
+      "found": true,
+      "notPrevented": true
+    }
+  },
+  "reduced": {
+    "initial": {
+      "active": false,
+      "scrollY": 0
+    },
+    "afterWheel": 200
+  },
+  "touch": {
+    "initialActive": true,
+    "movePrevented": true,
+    "final": 844,
+    "expected": 844
+  },
+  "checks": {
+    "allPagesAreSlides": true,
+    "allPagesViewportHeight": true,
+    "allPagesStackExactly": true,
+    "noPageContentOverflow": true,
+    "noHorizontalOverflow": true,
+    "documentHeightMatches": true,
+    "springOvershoots": true,
+    "springLands": true,
+    "chainLandsTwoPages": true,
+    "momentumSinglePage": true,
+    "wheelOnePage": true,
+    "keyboardOnePage": true,
+    "wheelBackOnePage": true,
+    "navLandsWork": true,
+    "workCardInert": true,
+    "skipNative": true,
+    "reducedStatic": true,
+    "touchPages": true,
+    "consoleClean": true
+  }
+}

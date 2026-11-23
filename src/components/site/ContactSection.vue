@@ -16,33 +16,40 @@ const isReduced = computed(() => reduced.value === 'reduce')
   <section
     id="contact"
     aria-labelledby="contact-title"
-    class="theme-paper relative overflow-hidden py-[clamp(6rem,12vw,11rem)]"
+    data-page-anchor="contact"
+    class="page-slide theme-paper"
   >
-    <div class="shell">
-      <SectionLabel id="contact-title" v-bind="sectionLabels.contact" class="text-ink/55" />
+    <div class="shell flex h-full flex-col pt-24 pb-6 md:pb-8">
+      <SectionLabel
+        id="contact-title"
+        v-bind="sectionLabels.contact"
+        class="text-ink/55"
+      />
 
-      <LiquidType class="mt-16">
-        <p
-          v-for="(line, i) in contact.lines"
-          :key="line"
-          class="text-[clamp(3rem,10vw,10rem)] leading-[0.9] tracking-[-0.04em]"
-          :class="
-            i === contact.lines.length - 1
-              ? 'font-serif font-normal italic'
-              : 'font-medium'
-          "
-        >
-          {{ line }}
-        </p>
-      </LiquidType>
+      <div class="flex min-h-0 flex-1 items-center py-[clamp(1rem,3dvh,2rem)]">
+        <LiquidType class="w-full">
+          <p
+            v-for="(line, i) in contact.lines"
+            :key="line"
+            class="text-[clamp(2.75rem,min(10vw,14dvh),10rem)] leading-[0.9] tracking-[-0.04em]"
+            :class="
+              i === contact.lines.length - 1
+                ? 'font-serif font-normal italic'
+                : 'font-medium'
+            "
+          >
+            {{ line }}
+          </p>
+        </LiquidType>
+      </div>
 
       <div
-        class="mt-16 flex flex-col gap-8 border-t border-line-light pt-8 md:flex-row md:items-center md:justify-between"
+        class="flex shrink-0 flex-col gap-5 border-t border-line-light pt-5 md:flex-row md:items-center md:justify-between"
       >
         <div>
           <a
             :href="`mailto:${studio.email}`"
-            class="inline-flex min-h-11 items-center border-b border-ink/25 pb-1 font-mono text-[clamp(1.15rem,2.4vw,1.75rem)] tracking-[-0.01em] transition-colors hover:border-ink"
+            class="inline-flex min-h-11 items-center border-b border-ink/25 pb-1 font-mono text-[clamp(1.05rem,2.2vw,1.6rem)] tracking-[-0.01em] transition-colors hover:border-ink"
             :aria-label="`发送邮件至 ${studio.email}`"
           >
             <HyperText
@@ -54,7 +61,7 @@ const isReduced = computed(() => reduced.value === 'reduce')
             />
             <template v-else>{{ studio.email }}</template>
           </a>
-          <p class="mt-4 font-mono text-[10px] tracking-[0.18em] text-ink/45">
+          <p class="mt-3 font-mono text-[10px] tracking-[0.18em] text-ink/45">
             {{ contact.availability }}
           </p>
         </div>
@@ -73,14 +80,14 @@ const isReduced = computed(() => reduced.value === 'reduce')
     <div
       v-if="!isReduced"
       data-spinning-badge
-      class="pointer-events-none absolute right-8 bottom-12 hidden md:block"
+      class="pointer-events-none absolute right-6 bottom-24 hidden md:block"
       aria-hidden="true"
     >
       <SpinningText
         :text="contact.badge"
         :duration="14"
         :radius="12"
-        class="h-40 w-40 text-[10px] tracking-[0.18em]"
+        class="h-36 w-36 text-[10px] tracking-[0.18em]"
       />
     </div>
   </section>

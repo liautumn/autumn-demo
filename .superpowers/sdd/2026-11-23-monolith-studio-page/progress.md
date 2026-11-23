@@ -60,3 +60,17 @@ Task 10: Ruling: hero 标题改为静态行 + LiquidType 整块 CSS 入场（0.7
 Task 10: minor (deferred): hero 大标题由 canvas 覆盖，文本不可选中/复制（读屏仍读取一次）。
 Task 10: minor (deferred): Chromium 下 hero 与 contact 各持有一个 WebGL 上下文；hero 在视口内持续以 60fps 绘制。
 Task 10: suite final — npm run test:run → 22 files / 52 passed；npm run type-check → exit 0；npm run build → exit 0（JS 362.34 kB / gzip 126.06 kB；CSS 46.36 kB / gzip 9.32 kB）。
+
+Task 11: complete (tests: npm run test:run → 24 files / 66 passed; type-check + build passed; visual: 390/768/1024/1440/1920 all 13 slides exactly 100dvh, stacked at n×vh, zero vertical overflow, no h-scroll; one gesture = one page; two gestures 130ms apart chain 0→1800; spring overshoot 29px; 25ms momentum pair stays one page; wheel/keyboard/touch/nav/skip/reduced/console all green; real wheel verified over WorkCard art and Contact liquid canvas).
+Task 11: Ruling: 用户明确否定「智能对齐」并要求逐页设计后，整站改为 13 个独立 100dvh 幻灯片（hero、about、5 个项目页、clients、capabilities、stats、philosophy、contact、footer）— 每屏内容自成一体，不再有跨屏截断 — 代价：页面更多、作品区每页重复页眉。
+Task 11: Ruling: 翻页改为目标页接力 — 弹簧动画中再次滑动会以当前目标为起点前进一页并保留速度，而不是丢弃输入 — 代价：慢速触控板动量若出现 >50ms 空隙且累计超过阈值，理论上可能多翻一页；无页面指示器。
+Task 11: Ruling: 取消 Manifesto 的 140vh 滚动显影，改为单屏静态宣言；About 页一次呈现宣言、两段说明与英文收束 — 代价：失去原来的滚动叙事感。
+Task 11: Ruling: 作品区改为「一项目一页」，WorkCard 改为填满可用高度、图片区 flex-1 — 代价：桌面不再有错落双列构图，视觉更接近作品集幻灯片。
+Task 11: Ruling: 幻灯片高度使用 100dvh（100svh 回退），PagePager 仍按 DOM 锚点计算 stops — 移动端工具栏变化会触发 resize 重算 — 代价：动态视口变化时可能有一次位置校正。
+Task 11: minor (deferred): 无页码/进度指示，13 屏全靠滚动与导航定位。
+Task 11: minor (deferred): 离屏页面的 marquee 与 hero/contact 两个 WebGL 上下文仍持续绘制，长时浏览有额外 GPU/CPU 开销。
+Task 11: minor (deferred): 间隔 <50ms 的快速滚轮刻度会被合并为同一次手势，需要用户保持一定节奏才能连续翻页。
+Task 11: minor (deferred): 开发环境截图底部中间的 Vue DevTools 悬浮球不属于页面内容，生产构建不会出现。
+Task 11: minor (deferred): PageStops 的 align/offset 能力已无调用方，暂时保留为通用接口。
+Task 11: suite final — npm run test:run → 24 files / 66 passed；npm run type-check → exit 0；npm run build → exit 0（JS 369.99 kB / gzip 128.35 kB；CSS 49.48 kB / gzip 9.91 kB）。
+

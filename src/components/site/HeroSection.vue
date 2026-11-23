@@ -34,7 +34,8 @@ onBeforeUnmount(() => {
     id="hero"
     ref="heroRef"
     aria-labelledby="hero-title"
-    class="theme-ink relative flex min-h-[100svh] flex-col overflow-hidden pt-28 pb-8"
+    data-page-anchor="hero"
+    class="page-slide theme-ink flex flex-col pt-24 pb-5"
     @pointermove="onPointerMove"
   >
     <div
@@ -53,11 +54,11 @@ onBeforeUnmount(() => {
       aria-hidden="true"
     />
 
-    <div class="shell relative flex flex-1 flex-col justify-between">
-      <div class="flex flex-1 flex-col justify-center py-16">
+    <div class="shell relative flex min-h-0 flex-1 flex-col justify-between">
+      <div class="flex min-h-0 flex-1 flex-col justify-center py-[clamp(1.5rem,5dvh,4rem)]">
         <LiquidType id="hero-title" reveal>
           <h1
-            class="text-[clamp(3.25rem,11vw,10.5rem)] leading-[0.92] font-medium tracking-[-0.04em]"
+            class="text-[clamp(3.25rem,min(11vw,15dvh),10.5rem)] leading-[0.92] font-medium tracking-[-0.04em]"
           >
             <span v-for="line in hero.lines" :key="line" class="block">
               <em
@@ -69,7 +70,7 @@ onBeforeUnmount(() => {
           </h1>
         </LiquidType>
 
-      <div class="mt-12 flex flex-col gap-10 md:flex-row md:items-end md:justify-between">
+      <div class="mt-[clamp(1.5rem,4dvh,3rem)] flex flex-col gap-10 md:flex-row md:items-end md:justify-between">
         <Reveal :delay="0.4" class="max-w-xl text-[15px] leading-7 text-paper/65">
           {{ hero.subtitle }}
         </Reveal>
@@ -94,7 +95,7 @@ onBeforeUnmount(() => {
     </div>
 
     <div
-      class="shell relative flex items-center justify-between gap-6 border-t border-paper/10 pt-5 font-mono text-[10px] tracking-[0.18em] text-paper/50"
+      class="shell relative flex shrink-0 items-center justify-between gap-6 border-t border-paper/10 pt-4 font-mono text-[10px] tracking-[0.18em] text-paper/50"
     >
       <span>SCROLL ↓</span>
       <span class="hidden sm:block">{{ studio.city }}</span>
