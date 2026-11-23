@@ -74,3 +74,4 @@ Task 11: minor (deferred): 开发环境截图底部中间的 Vue DevTools 悬浮
 Task 11: minor (deferred): PageStops 的 align/offset 能力已无调用方，暂时保留为通用接口。
 Task 11: suite final — npm run test:run → 24 files / 66 passed；npm run type-check → exit 0；npm run build → exit 0（JS 369.99 kB / gzip 128.35 kB；CSS 49.48 kB / gzip 9.91 kB）。
 
+Task 12: withdrawn — 用户明确「不要 liquid-glass 这个了」 — LiquidGlass 组件、support、单测、README 条目与验证脚本/截图全部移除，hero 元数据栏恢复原样 — 已回归 suite 24 files / 66 passed；type-check + build 通过（JS 369.99 kB / gzip 128.35 kB；CSS 49.48 kB / gzip 9.91 kB），浏览器 verified 无 data-liquid-glass 残留、hero 900/900 无溢出、13 屏不变。
