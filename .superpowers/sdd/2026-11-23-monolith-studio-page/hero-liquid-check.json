@@ -1,0 +1,105 @@
+{
+  "info": {
+    "kind": "",
+    "rootRect": {
+      "x": 57.59375,
+      "y": 224.5625,
+      "width": 1324.8125,
+      "height": 590.875,
+      "top": 224.5625,
+      "right": 1382.40625,
+      "bottom": 815.4375,
+      "left": 57.59375
+    },
+    "measureRect": {
+      "x": 57.59375,
+      "y": 224.5625,
+      "width": 1324.8125,
+      "height": 590.875,
+      "top": 224.5625,
+      "right": 1382.40625,
+      "bottom": 815.4375,
+      "left": 57.59375
+    },
+    "surfaceRect": {
+      "x": 57.59375,
+      "y": 224.5625,
+      "width": 1324.8125,
+      "height": 590.875,
+      "top": 224.5625,
+      "right": 1382.40625,
+      "bottom": 815.4375,
+      "left": 57.59375
+    },
+    "h1s": [
+      {
+        "id": "",
+        "inMeasure": true,
+        "rect": {
+          "x": 57.59375,
+          "y": 224.5625,
+          "width": 1324.8125,
+          "height": 590.875,
+          "top": 224.5625,
+          "right": 1382.40625,
+          "bottom": 815.4375,
+          "left": 57.59375
+        },
+        "fontSize": "158.4px",
+        "opacity": "1",
+        "text": "WE SHAPEquiet,DELIBERATEdigital."
+      },
+      {
+        "id": "",
+        "inMeasure": false,
+        "rect": {
+          "x": 57.59375,
+          "y": 224.5625,
+          "width": 1324.8125,
+          "height": 590.875,
+          "top": 224.5625,
+          "right": 1382.40625,
+          "bottom": 815.4375,
+          "left": 57.59375
+        },
+        "fontSize": "158.4px",
+        "opacity": "1",
+        "text": "WE SHAPEquiet,DELIBERATEdigital."
+      }
+    ],
+    "canvases": [
+      {
+        "width": 2650,
+        "height": 1182,
+        "opacity": "0"
+      },
+      {
+        "width": 2650,
+        "height": 1182,
+        "opacity": "1"
+      },
+      {
+        "width": 2650,
+        "height": 778,
+        "opacity": "0"
+      },
+      {
+        "width": 2650,
+        "height": 778,
+        "opacity": "1"
+      }
+    ],
+    "scrollWidth": 1440,
+    "innerWidth": 1440
+  },
+  "aria": "- region \"WE SHAPE quiet, DELIBERATE digital.\":\n  - heading \"WE SHAPE quiet, DELIBERATE digital.\" [level=1]:\n    - text: WE SHAPE\n    - emphasis: quiet,\n    - text: DELIBERATE\n    - emphasis: digital.\n  - text: 独石是一间独立设计工作室。我们以克制的形式，为品牌、产品与空间塑造安静而笃定的数字体验。\n  - link \"查看作品\":\n    - /url: \"#work\"\n  - link \"开始一个项目 ↗\":\n    - /url: mailto:hello@monolith.studio\n  - text: SCROLL ↓ SHANGHAI / BERLIN 31.2304° N, 121.4737° E",
+  "messages": [],
+  "reducedInfo": {
+    "kind": "static",
+    "tag": "DIV",
+    "canvases": 0,
+    "h1Count": 1,
+    "h1Id": "",
+    "text": "WE SHAPEquiet,DELIBERATEdigital."
+  }
+}

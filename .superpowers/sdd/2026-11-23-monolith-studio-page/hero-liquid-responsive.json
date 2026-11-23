@@ -1,0 +1,402 @@
+[
+  {
+    "width": 390,
+    "info": {
+      "kind": "",
+      "rootRect": {
+        "x": 20,
+        "y": 331.34375,
+        "width": 350,
+        "height": 193.3125,
+        "top": 331.34375,
+        "right": 370,
+        "bottom": 524.65625,
+        "left": 20
+      },
+      "measureRect": {
+        "x": 20,
+        "y": 331.34375,
+        "width": 350,
+        "height": 193.3125,
+        "top": 331.34375,
+        "right": 370,
+        "bottom": 524.65625,
+        "left": 20
+      },
+      "surfaceRect": {
+        "x": 20,
+        "y": 331.34375,
+        "width": 350,
+        "height": 193.3125,
+        "top": 331.34375,
+        "right": 370,
+        "bottom": 524.65625,
+        "left": 20
+      },
+      "h1Rect": {
+        "x": 20,
+        "y": 331.34375,
+        "width": 350,
+        "height": 193.3125,
+        "top": 331.34375,
+        "right": 370,
+        "bottom": 524.65625,
+        "left": 20
+      },
+      "h1Overflow": {
+        "top": 0,
+        "bottom": 0
+      },
+      "canvases": [
+        {
+          "width": 700,
+          "height": 387,
+          "opacity": "0"
+        },
+        {
+          "width": 700,
+          "height": 387,
+          "opacity": "1"
+        }
+      ],
+      "scrollWidth": 390,
+      "innerWidth": 390,
+      "heroHeight": 1000,
+      "titleText": "WE SHAPEquiet,DELIBERATEdigital.",
+      "contactKind": ""
+    },
+    "aria": "- region \"WE SHAPE quiet, DELIBERATE digital.\":\n  - heading \"WE SHAPE quiet, DELIBERATE digital.\" [level=1]:\n    - text: WE SHAPE\n    - emphasis: quiet,\n    - text: DELIBERATE\n    - emphasis: digital.\n  - text: 独石是一间独立设计工作室。我们以克制的形式，为品牌、产品与空间塑造安静而笃定的数字体验。\n  - link \"查看作品\":\n    - /url: \"#work\"\n  - link \"开始一个项目 ↗\":\n    - /url: mailto:hello@monolith.studio\n  - text: SCROLL ↓",
+    "messages": [],
+    "spotlight": {
+      "beforeSpot": "",
+      "afterSpot": {
+        "mx": "160px",
+        "my": "408.66876220703125px"
+      }
+    },
+    "scroll": {
+      "before": 0,
+      "after": 500
+    }
+  },
+  {
+    "width": 768,
+    "info": {
+      "kind": "",
+      "rootRect": {
+        "x": 30.71875,
+        "y": 280.5625,
+        "width": 706.5625,
+        "height": 314.875,
+        "top": 280.5625,
+        "right": 737.28125,
+        "bottom": 595.4375,
+        "left": 30.71875
+      },
+      "measureRect": {
+        "x": 30.71875,
+        "y": 280.5625,
+        "width": 706.5625,
+        "height": 314.875,
+        "top": 280.5625,
+        "right": 737.28125,
+        "bottom": 595.4375,
+        "left": 30.71875
+      },
+      "surfaceRect": {
+        "x": 30.71875,
+        "y": 280.5625,
+        "width": 706.5625,
+        "height": 314.875,
+        "top": 280.5625,
+        "right": 737.28125,
+        "bottom": 595.4375,
+        "left": 30.71875
+      },
+      "h1Rect": {
+        "x": 30.71875,
+        "y": 280.5625,
+        "width": 706.5625,
+        "height": 314.875,
+        "top": 280.5625,
+        "right": 737.28125,
+        "bottom": 595.4375,
+        "left": 30.71875
+      },
+      "h1Overflow": {
+        "top": 0,
+        "bottom": 0
+      },
+      "canvases": [
+        {
+          "width": 1413,
+          "height": 630,
+          "opacity": "0"
+        },
+        {
+          "width": 1413,
+          "height": 630,
+          "opacity": "1"
+        }
+      ],
+      "scrollWidth": 768,
+      "innerWidth": 768,
+      "heroHeight": 1000,
+      "titleText": "WE SHAPEquiet,DELIBERATEdigital.",
+      "contactKind": ""
+    },
+    "aria": "- region \"WE SHAPE quiet, DELIBERATE digital.\":\n  - heading \"WE SHAPE quiet, DELIBERATE digital.\" [level=1]:\n    - text: WE SHAPE\n    - emphasis: quiet,\n    - text: DELIBERATE\n    - emphasis: digital.\n  - text: 独石是一间独立设计工作室。我们以克制的形式，为品牌、产品与空间塑造安静而笃定的数字体验。\n  - link \"查看作品\":\n    - /url: \"#work\"\n  - link \"开始一个项目 ↗\":\n    - /url: mailto:hello@monolith.studio\n  - text: SCROLL ↓ SHANGHAI / BERLIN 31.2304° N, 121.4737° E",
+    "messages": [],
+    "spotlight": {
+      "beforeSpot": "",
+      "afterSpot": {
+        "mx": "313.34375px",
+        "my": "406.51251220703125px"
+      }
+    },
+    "scroll": {
+      "before": 0,
+      "after": 500
+    }
+  },
+  {
+    "width": 1024,
+    "info": {
+      "kind": "",
+      "rootRect": {
+        "x": 40.953125,
+        "y": 260.75,
+        "width": 942.09375,
+        "height": 418.5,
+        "top": 260.75,
+        "right": 983.046875,
+        "bottom": 679.25,
+        "left": 40.953125
+      },
+      "measureRect": {
+        "x": 40.953125,
+        "y": 260.75,
+        "width": 942.09375,
+        "height": 418.5,
+        "top": 260.75,
+        "right": 983.046875,
+        "bottom": 679.25,
+        "left": 40.953125
+      },
+      "surfaceRect": {
+        "x": 40.953125,
+        "y": 260.75,
+        "width": 942.09375,
+        "height": 418.5,
+        "top": 260.75,
+        "right": 983.046875,
+        "bottom": 679.25,
+        "left": 40.953125
+      },
+      "h1Rect": {
+        "x": 40.953125,
+        "y": 260.75,
+        "width": 942.09375,
+        "height": 418.5,
+        "top": 260.75,
+        "right": 983.046875,
+        "bottom": 679.25,
+        "left": 40.953125
+      },
+      "h1Overflow": {
+        "top": 0,
+        "bottom": 0
+      },
+      "canvases": [
+        {
+          "width": 1884,
+          "height": 837,
+          "opacity": "0"
+        },
+        {
+          "width": 1884,
+          "height": 837,
+          "opacity": "1"
+        }
+      ],
+      "scrollWidth": 1024,
+      "innerWidth": 1024,
+      "heroHeight": 1000,
+      "titleText": "WE SHAPEquiet,DELIBERATEdigital.",
+      "contactKind": ""
+    },
+    "aria": "- region \"WE SHAPE quiet, DELIBERATE digital.\":\n  - heading \"WE SHAPE quiet, DELIBERATE digital.\" [level=1]:\n    - text: WE SHAPE\n    - emphasis: quiet,\n    - text: DELIBERATE\n    - emphasis: digital.\n  - text: 独石是一间独立设计工作室。我们以克制的形式，为品牌、产品与空间塑造安静而笃定的数字体验。\n  - link \"查看作品\":\n    - /url: \"#work\"\n  - link \"开始一个项目 ↗\":\n    - /url: mailto:hello@monolith.studio\n  - text: SCROLL ↓ SHANGHAI / BERLIN 31.2304° N, 121.4737° E",
+    "messages": [],
+    "spotlight": {
+      "beforeSpot": "",
+      "afterSpot": {
+        "mx": "417.7906188964844px",
+        "my": "428.1499938964844px"
+      }
+    },
+    "scroll": {
+      "before": 0,
+      "after": 500
+    }
+  },
+  {
+    "width": 1440,
+    "info": {
+      "kind": "",
+      "rootRect": {
+        "x": 57.59375,
+        "y": 176,
+        "width": 1324.8125,
+        "height": 590.875,
+        "top": 176,
+        "right": 1382.40625,
+        "bottom": 766.875,
+        "left": 57.59375
+      },
+      "measureRect": {
+        "x": 57.59375,
+        "y": 176,
+        "width": 1324.8125,
+        "height": 590.875,
+        "top": 176,
+        "right": 1382.40625,
+        "bottom": 766.875,
+        "left": 57.59375
+      },
+      "surfaceRect": {
+        "x": 57.59375,
+        "y": 176,
+        "width": 1324.8125,
+        "height": 590.875,
+        "top": 176,
+        "right": 1382.40625,
+        "bottom": 766.875,
+        "left": 57.59375
+      },
+      "h1Rect": {
+        "x": 57.59375,
+        "y": 176,
+        "width": 1324.8125,
+        "height": 590.875,
+        "top": 176,
+        "right": 1382.40625,
+        "bottom": 766.875,
+        "left": 57.59375
+      },
+      "h1Overflow": {
+        "top": 0,
+        "bottom": 0
+      },
+      "canvases": [
+        {
+          "width": 2650,
+          "height": 1182,
+          "opacity": "0"
+        },
+        {
+          "width": 2650,
+          "height": 1182,
+          "opacity": "1"
+        }
+      ],
+      "scrollWidth": 1440,
+      "innerWidth": 1440,
+      "heroHeight": 1002.875,
+      "titleText": "WE SHAPEquiet,DELIBERATEdigital.",
+      "contactKind": ""
+    },
+    "aria": "- region \"WE SHAPE quiet, DELIBERATE digital.\":\n  - heading \"WE SHAPE quiet, DELIBERATE digital.\" [level=1]:\n    - text: WE SHAPE\n    - emphasis: quiet,\n    - text: DELIBERATE\n    - emphasis: digital.\n  - text: 独石是一间独立设计工作室。我们以克制的形式，为品牌、产品与空间塑造安静而笃定的数字体验。\n  - link \"查看作品\":\n    - /url: \"#work\"\n  - link \"开始一个项目 ↗\":\n    - /url: mailto:hello@monolith.studio\n  - text: SCROLL ↓ SHANGHAI / BERLIN 31.2304° N, 121.4737° E",
+    "messages": [],
+    "spotlight": {
+      "beforeSpot": "",
+      "afterSpot": {
+        "mx": "587.5187377929688px",
+        "my": "412.3500061035156px"
+      }
+    },
+    "scroll": {
+      "before": 0,
+      "after": 500
+    }
+  },
+  {
+    "width": 1920,
+    "info": {
+      "kind": "",
+      "rootRect": {
+        "x": 304,
+        "y": 176,
+        "width": 1312,
+        "height": 626.1875,
+        "top": 176,
+        "right": 1616,
+        "bottom": 802.1875,
+        "left": 304
+      },
+      "measureRect": {
+        "x": 304,
+        "y": 176,
+        "width": 1312,
+        "height": 626.1875,
+        "top": 176,
+        "right": 1616,
+        "bottom": 802.1875,
+        "left": 304
+      },
+      "surfaceRect": {
+        "x": 304,
+        "y": 176,
+        "width": 1312,
+        "height": 626.1875,
+        "top": 176,
+        "right": 1616,
+        "bottom": 802.1875,
+        "left": 304
+      },
+      "h1Rect": {
+        "x": 304,
+        "y": 176,
+        "width": 1312,
+        "height": 626.1875,
+        "top": 176,
+        "right": 1616,
+        "bottom": 802.1875,
+        "left": 304
+      },
+      "h1Overflow": {
+        "top": 0,
+        "bottom": 0
+      },
+      "canvases": [
+        {
+          "width": 2624,
+          "height": 1252,
+          "opacity": "0"
+        },
+        {
+          "width": 2624,
+          "height": 1252,
+          "opacity": "1"
+        }
+      ],
+      "scrollWidth": 1920,
+      "innerWidth": 1920,
+      "heroHeight": 1038.1875,
+      "titleText": "WE SHAPEquiet,DELIBERATEdigital.",
+      "contactKind": ""
+    },
+    "aria": "- region \"WE SHAPE quiet, DELIBERATE digital.\":\n  - heading \"WE SHAPE quiet, DELIBERATE digital.\" [level=1]:\n    - text: WE SHAPE\n    - emphasis: quiet,\n    - text: DELIBERATE\n    - emphasis: digital.\n  - text: 独石是一间独立设计工作室。我们以克制的形式，为品牌、产品与空间塑造安静而笃定的数字体验。\n  - link \"查看作品\":\n    - /url: \"#work\"\n  - link \"开始一个项目 ↗\":\n    - /url: mailto:hello@monolith.studio\n  - text: SCROLL ↓ SHANGHAI / BERLIN 31.2304° N, 121.4737° E",
+    "messages": [],
+    "spotlight": {
+      "beforeSpot": "",
+      "afterSpot": {
+        "mx": "828.7999877929688px",
+        "my": "426.4750061035156px"
+      }
+    },
+    "scroll": {
+      "before": 0,
+      "after": 500
+    }
+  }
+]

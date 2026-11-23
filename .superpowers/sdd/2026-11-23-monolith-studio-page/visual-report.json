@@ -1,0 +1,98 @@
+{
+  "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "noHorizontalScroll": true,
+    "chromatic": [],
+    "smallTargets": [],
+    "fontFamily": "\"Inter Tight\", \"PingFang SC\", \"Hiragino Sans GB\", \"Source Han Sans SC\", \"Noto Sans CJK SC\", \"Microsoft YaHei\", sans-serif",
+    "heroHeight": 1002.875,
+    "sections": [
+      "hero",
+      "about",
+      "work",
+      "SECTION",
+      "capabilities",
+      "stats",
+      "philosophy",
+      "contact",
+      "FOOTER"
+    ]
+  },
+  "mobile": {
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "noHorizontalScroll": true,
+    "chromatic": [],
+    "smallTargets": [],
+    "fontFamily": "\"Inter Tight\", \"PingFang SC\", \"Hiragino Sans GB\", \"Source Han Sans SC\", \"Noto Sans CJK SC\", \"Microsoft YaHei\", sans-serif",
+    "heroHeight": 844,
+    "sections": [
+      "hero",
+      "about",
+      "work",
+      "SECTION",
+      "capabilities",
+      "stats",
+      "philosophy",
+      "contact",
+      "FOOTER"
+    ]
+  },
+  "reduced": {
+    "marqueeAnimation": "none",
+    "badgeVisible": false,
+    "spotlight": false
+  },
+  "statValues": [
+    "48",
+    "12",
+    "07",
+    "09"
+  ],
+  "focusTrail": [
+    {
+      "tag": "A",
+      "text": "跳到主内容",
+      "href": "#main",
+      "outline": "solid",
+      "y": 16
+    },
+    {
+      "tag": "A",
+      "text": "MONOLITH®",
+      "href": "#hero",
+      "outline": "solid",
+      "y": 20
+    },
+    {
+      "tag": "A",
+      "text": "作品",
+      "href": "#work",
+      "outline": "solid",
+      "y": 20
+    },
+    {
+      "tag": "A",
+      "text": "关于",
+      "href": "#about",
+      "outline": "solid",
+      "y": 20
+    },
+    {
+      "tag": "A",
+      "text": "联系",
+      "href": "#contact",
+      "outline": "solid",
+      "y": 20
+    },
+    {
+      "tag": "A",
+      "text": "开始项目 ↗",
+      "href": "mailto:hello@monolith.studio",
+      "outline": "solid",
+      "y": 20
+    }
+  ],
+  "consoleMessages": []
+}

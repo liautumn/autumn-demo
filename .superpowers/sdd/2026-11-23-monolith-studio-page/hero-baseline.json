@@ -1,0 +1,522 @@
+[
+  {
+    "width": 390,
+    "messages": [],
+    "info": {
+      "section": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 1100,
+        "top": 0,
+        "right": 390,
+        "bottom": 1100,
+        "left": 0
+      },
+      "h1": {
+        "x": 20,
+        "y": 381.34375,
+        "width": 350,
+        "height": 193.3125,
+        "top": 381.34375,
+        "right": 370,
+        "bottom": 574.65625,
+        "left": 20
+      },
+      "h1Style": {
+        "fontSize": "52px",
+        "lineHeight": "47.84px",
+        "letterSpacing": "-2.08px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "overflow": "visible"
+      },
+      "spans": [
+        {
+          "tag": "SPAN",
+          "text": "WE SHAPE",
+          "rect": {
+            "x": 20,
+            "y": 381.34375,
+            "width": 350,
+            "height": 47.828125,
+            "top": 381.34375,
+            "right": 370,
+            "bottom": 429.171875,
+            "left": 20
+          },
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "text": "quiet,",
+          "rect": {
+            "x": 20,
+            "y": 429.171875,
+            "width": 350,
+            "height": 48.828125,
+            "top": 429.171875,
+            "right": 370,
+            "bottom": 478,
+            "left": 20
+          },
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "text": "DELIBERATE",
+          "rect": {
+            "x": 20,
+            "y": 478,
+            "width": 350,
+            "height": 47.828125,
+            "top": 478,
+            "right": 370,
+            "bottom": 525.828125,
+            "left": 20
+          },
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "text": "digital.",
+          "rect": {
+            "x": 20,
+            "y": 525.828125,
+            "width": 350,
+            "height": 48.828125,
+            "top": 525.828125,
+            "right": 370,
+            "bottom": 574.65625,
+            "left": 20
+          },
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "scrollWidth": 390,
+      "innerWidth": 390
+    }
+  },
+  {
+    "width": 768,
+    "messages": [],
+    "info": {
+      "section": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 1100,
+        "top": 0,
+        "right": 768,
+        "bottom": 1100,
+        "left": 0
+      },
+      "h1": {
+        "x": 30.71875,
+        "y": 330.5625,
+        "width": 706.5625,
+        "height": 314.875,
+        "top": 330.5625,
+        "right": 737.28125,
+        "bottom": 645.4375,
+        "left": 30.71875
+      },
+      "h1Style": {
+        "fontSize": "84.48px",
+        "lineHeight": "77.7216px",
+        "letterSpacing": "-3.3792px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "overflow": "visible"
+      },
+      "spans": [
+        {
+          "tag": "SPAN",
+          "text": "WE SHAPE",
+          "rect": {
+            "x": 30.71875,
+            "y": 330.5625,
+            "width": 706.5625,
+            "height": 77.71875,
+            "top": 330.5625,
+            "right": 737.28125,
+            "bottom": 408.28125,
+            "left": 30.71875
+          },
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "text": "quiet,",
+          "rect": {
+            "x": 30.71875,
+            "y": 408.28125,
+            "width": 706.5625,
+            "height": 79.71875,
+            "top": 408.28125,
+            "right": 737.28125,
+            "bottom": 488,
+            "left": 30.71875
+          },
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "text": "DELIBERATE",
+          "rect": {
+            "x": 30.71875,
+            "y": 488,
+            "width": 706.5625,
+            "height": 77.71875,
+            "top": 488,
+            "right": 737.28125,
+            "bottom": 565.71875,
+            "left": 30.71875
+          },
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "text": "digital.",
+          "rect": {
+            "x": 30.71875,
+            "y": 565.71875,
+            "width": 706.5625,
+            "height": 79.71875,
+            "top": 565.71875,
+            "right": 737.28125,
+            "bottom": 645.4375,
+            "left": 30.71875
+          },
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "scrollWidth": 768,
+      "innerWidth": 768
+    }
+  },
+  {
+    "width": 1024,
+    "messages": [],
+    "info": {
+      "section": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 1100,
+        "top": 0,
+        "right": 1024,
+        "bottom": 1100,
+        "left": 0
+      },
+      "h1": {
+        "x": 40.953125,
+        "y": 310.75,
+        "width": 942.09375,
+        "height": 418.5,
+        "top": 310.75,
+        "right": 983.046875,
+        "bottom": 729.25,
+        "left": 40.953125
+      },
+      "h1Style": {
+        "fontSize": "112.64px",
+        "lineHeight": "103.629px",
+        "letterSpacing": "-4.5056px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "overflow": "visible"
+      },
+      "spans": [
+        {
+          "tag": "SPAN",
+          "text": "WE SHAPE",
+          "rect": {
+            "x": 40.953125,
+            "y": 310.75,
+            "width": 942.09375,
+            "height": 103.625,
+            "top": 310.75,
+            "right": 983.046875,
+            "bottom": 414.375,
+            "left": 40.953125
+          },
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "text": "quiet,",
+          "rect": {
+            "x": 40.953125,
+            "y": 414.375,
+            "width": 942.09375,
+            "height": 105.625,
+            "top": 414.375,
+            "right": 983.046875,
+            "bottom": 520,
+            "left": 40.953125
+          },
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "text": "DELIBERATE",
+          "rect": {
+            "x": 40.953125,
+            "y": 520,
+            "width": 942.09375,
+            "height": 103.625,
+            "top": 520,
+            "right": 983.046875,
+            "bottom": 623.625,
+            "left": 40.953125
+          },
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "text": "digital.",
+          "rect": {
+            "x": 40.953125,
+            "y": 623.625,
+            "width": 942.09375,
+            "height": 105.625,
+            "top": 623.625,
+            "right": 983.046875,
+            "bottom": 729.25,
+            "left": 40.953125
+          },
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "scrollWidth": 1024,
+      "innerWidth": 1024
+    }
+  },
+  {
+    "width": 1440,
+    "messages": [],
+    "info": {
+      "section": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1100,
+        "top": 0,
+        "right": 1440,
+        "bottom": 1100,
+        "left": 0
+      },
+      "h1": {
+        "x": 57.59375,
+        "y": 224.5625,
+        "width": 1324.8125,
+        "height": 590.875,
+        "top": 224.5625,
+        "right": 1382.40625,
+        "bottom": 815.4375,
+        "left": 57.59375
+      },
+      "h1Style": {
+        "fontSize": "158.4px",
+        "lineHeight": "145.728px",
+        "letterSpacing": "-6.336px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "overflow": "visible"
+      },
+      "spans": [
+        {
+          "tag": "SPAN",
+          "text": "WE SHAPE",
+          "rect": {
+            "x": 57.59375,
+            "y": 224.5625,
+            "width": 1324.8125,
+            "height": 145.71875,
+            "top": 224.5625,
+            "right": 1382.40625,
+            "bottom": 370.28125,
+            "left": 57.59375
+          },
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "text": "quiet,",
+          "rect": {
+            "x": 57.59375,
+            "y": 370.28125,
+            "width": 1324.8125,
+            "height": 149.71875,
+            "top": 370.28125,
+            "right": 1382.40625,
+            "bottom": 520,
+            "left": 57.59375
+          },
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "text": "DELIBERATE",
+          "rect": {
+            "x": 57.59375,
+            "y": 520,
+            "width": 1324.8125,
+            "height": 145.71875,
+            "top": 520,
+            "right": 1382.40625,
+            "bottom": 665.71875,
+            "left": 57.59375
+          },
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "text": "digital.",
+          "rect": {
+            "x": 57.59375,
+            "y": 665.71875,
+            "width": 1324.8125,
+            "height": 149.71875,
+            "top": 665.71875,
+            "right": 1382.40625,
+            "bottom": 815.4375,
+            "left": 57.59375
+          },
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "scrollWidth": 1440,
+      "innerWidth": 1440
+    }
+  },
+  {
+    "width": 1920,
+    "messages": [],
+    "info": {
+      "section": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1100,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1100,
+        "left": 0
+      },
+      "h1": {
+        "x": 304,
+        "y": 206.90625,
+        "width": 1312,
+        "height": 626.1875,
+        "top": 206.90625,
+        "right": 1616,
+        "bottom": 833.09375,
+        "left": 304
+      },
+      "h1Style": {
+        "fontSize": "168px",
+        "lineHeight": "154.56px",
+        "letterSpacing": "-6.72px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "marginTop": "0px",
+        "marginBottom": "0px",
+        "overflow": "visible"
+      },
+      "spans": [
+        {
+          "tag": "SPAN",
+          "text": "WE SHAPE",
+          "rect": {
+            "x": 304,
+            "y": 206.90625,
+            "width": 1312,
+            "height": 154.546875,
+            "top": 206.90625,
+            "right": 1616,
+            "bottom": 361.453125,
+            "left": 304
+          },
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "text": "quiet,",
+          "rect": {
+            "x": 304,
+            "y": 361.453125,
+            "width": 1312,
+            "height": 158.546875,
+            "top": 361.453125,
+            "right": 1616,
+            "bottom": 520,
+            "left": 304
+          },
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "text": "DELIBERATE",
+          "rect": {
+            "x": 304,
+            "y": 520,
+            "width": 1312,
+            "height": 154.546875,
+            "top": 520,
+            "right": 1616,
+            "bottom": 674.546875,
+            "left": 304
+          },
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "text": "digital.",
+          "rect": {
+            "x": 304,
+            "y": 674.546875,
+            "width": 1312,
+            "height": 158.546875,
+            "top": 674.546875,
+            "right": 1616,
+            "bottom": 833.09375,
+            "left": 304
+          },
+          "opacity": "1",
+          "transform": "none"
+        }
+      ],
+      "scrollWidth": 1920,
+      "innerWidth": 1920
+    }
+  }
+]

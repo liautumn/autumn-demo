@@ -1,0 +1,90 @@
+{
+  "heroFocus": {
+    "tabs": 7,
+    "hit": {
+      "outlineColor": "rgb(242, 240, 234)",
+      "sectionBg": "rgb(10, 10, 9)"
+    }
+  },
+  "contactFocus": {
+    "tabs": 12,
+    "hit": {
+      "outlineColor": "rgb(10, 10, 9)",
+      "sectionBg": "rgb(242, 240, 234)"
+    }
+  },
+  "badgeHit": {
+    "hitTag": "DIV",
+    "hitText": "",
+    "insideCta": true
+  },
+  "reveal": {
+    "maxOpacity": 1,
+    "minOpacity": 0.998393,
+    "stickyCenterY": 350,
+    "navHeight": 85,
+    "pinned": true
+  },
+  "layout": {
+    "maxShellWidth": 1440,
+    "misaligned": [],
+    "shellCount": 11,
+    "widths": [
+      {
+        "section": "nav",
+        "width": 1440,
+        "left": 240
+      },
+      {
+        "section": "hero",
+        "width": 1440,
+        "left": 240
+      },
+      {
+        "section": "hero",
+        "width": 1440,
+        "left": 240
+      },
+      {
+        "section": "about",
+        "width": 1440,
+        "left": 240
+      },
+      {
+        "section": "about",
+        "width": 1440,
+        "left": 240
+      },
+      {
+        "section": "work",
+        "width": 1440,
+        "left": 240
+      },
+      {
+        "section": "capabilities",
+        "width": 1440,
+        "left": 240
+      },
+      {
+        "section": "stats",
+        "width": 1440,
+        "left": 240
+      },
+      {
+        "section": "philosophy",
+        "width": 1440,
+        "left": 240
+      },
+      {
+        "section": "contact",
+        "width": 1440,
+        "left": 240
+      },
+      {
+        "section": "FOOTER",
+        "width": 1440,
+        "left": 240
+      }
+    ]
+  }
+}
