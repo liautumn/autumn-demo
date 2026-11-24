@@ -10,7 +10,7 @@ import { footer, navLinks, studio } from '@/data/site'
     <div
       class="shell flex h-full flex-col justify-between pt-[clamp(5.5rem,10dvh,7rem)] pb-5"
     >
-      <div class="overflow-hidden" aria-hidden="true">
+      <div class="mt-6 overflow-hidden md:mt-10" aria-hidden="true">
         <p
           class="whitespace-nowrap text-[clamp(3rem,14vw,13rem)] leading-[0.75] font-medium tracking-[-0.05em] text-paper/15"
         >

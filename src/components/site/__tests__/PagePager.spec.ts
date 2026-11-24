@@ -58,7 +58,9 @@ beforeEach(() => {
     writable: true,
   })
 
-  scrollToMock = vi.fn()
+  scrollToMock = vi.fn((_x: number, y: number) => {
+    window.scrollY = y
+  })
   vi.stubGlobal('scrollTo', scrollToMock)
 })
 
@@ -128,6 +130,83 @@ describe('PagePager', () => {
         expect(lastCall?.[1]).toBeLessThan(1202)
       },
       { timeout: 2500, interval: 50 },
+    )
+  })
+
+  it('accumulates sub-threshold wheel events across a short pause', async () => {
+    await mountPager()
+
+    window.dispatchEvent(new WheelEvent('wheel', { deltaY: 10, cancelable: true }))
+    await new Promise((resolve) => setTimeout(resolve, 65))
+    window.dispatchEvent(new WheelEvent('wheel', { deltaY: 10, cancelable: true }))
+
+    await vi.waitFor(
+      () => {
+        const lastCall = scrollToMock.mock.calls.at(-1)
+        expect(lastCall?.[1]).toBeGreaterThan(598)
+        expect(lastCall?.[1]).toBeLessThan(602)
+      },
+      { timeout: 2000, interval: 50 },
+    )
+  })
+
+  it('keeps a slow stream of wheel events on a single page', async () => {
+    await mountPager()
+
+    for (let index = 0; index < 6; index += 1) {
+      window.dispatchEvent(new WheelEvent('wheel', { deltaY: 25, cancelable: true }))
+      await new Promise((resolve) => setTimeout(resolve, 65))
+    }
+
+    await new Promise((resolve) => setTimeout(resolve, 1400))
+
+    const lastCall = scrollToMock.mock.calls.at(-1)
+    expect(lastCall?.[1]).toBeGreaterThan(598)
+    expect(lastCall?.[1]).toBeLessThan(602)
+  })
+
+  it('does not chain medium wheel events that arrive slowly', async () => {
+    await mountPager()
+
+    for (let index = 0; index < 6; index += 1) {
+      window.dispatchEvent(new WheelEvent('wheel', { deltaY: 25, cancelable: true }))
+      await new Promise((resolve) => setTimeout(resolve, 120))
+    }
+
+    await new Promise((resolve) => setTimeout(resolve, 1400))
+
+    const lastCall = scrollToMock.mock.calls.at(-1)
+    expect(lastCall?.[1]).toBeGreaterThan(598)
+    expect(lastCall?.[1]).toBeLessThan(602)
+  })
+
+  it('turns arrow keys into single-page steps', async () => {
+    await mountPager()
+
+    const down = new KeyboardEvent('keydown', { key: 'ArrowDown', cancelable: true })
+    window.dispatchEvent(down)
+
+    expect(down.defaultPrevented).toBe(true)
+    await vi.waitFor(
+      () => {
+        const lastCall = scrollToMock.mock.calls.at(-1)
+        expect(lastCall?.[1]).toBeGreaterThan(598)
+        expect(lastCall?.[1]).toBeLessThan(602)
+      },
+      { timeout: 2000, interval: 50 },
+    )
+
+    const up = new KeyboardEvent('keydown', { key: 'ArrowUp', cancelable: true })
+    window.dispatchEvent(up)
+
+    expect(up.defaultPrevented).toBe(true)
+    await vi.waitFor(
+      () => {
+        const lastCall = scrollToMock.mock.calls.at(-1)
+        expect(lastCall?.[1]).toBeGreaterThan(-2)
+        expect(lastCall?.[1]).toBeLessThan(2)
+      },
+      { timeout: 2000, interval: 50 },
     )
   })
 

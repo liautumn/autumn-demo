@@ -10,8 +10,11 @@ import {
   type PageAnchor,
 } from '@/lib/pageStops'
 
-const QUIET_MS = 50
 const WHEEL_THRESHOLD = 18
+// A single mouse-wheel notch vs. a small continuous trackpad tick.
+const WHEEL_IMPULSE = 32
+const WHEEL_REARM_MS = 100
+const WHEEL_SLOW_REARM_MS = 240
 const TOUCH_THRESHOLD = 42
 const TOUCH_TIMEOUT_MS = 900
 const SPRING_MAX_FRAME = 0.05
@@ -34,6 +37,7 @@ let refreshFrame = 0
 let bodyObserver: ResizeObserver | null = null
 
 let lastWheelAt = Number.NEGATIVE_INFINITY
+let lastWheelDirection: 1 | -1 = 1
 let wheelAccumulator = 0
 let wheelConsumed = false
 
@@ -167,14 +171,15 @@ function animateTo(nextTarget: number) {
   frame = requestAnimationFrame(tick)
 }
 
-function stepPage(direction: 1 | -1) {
-  if (!enabled.value) return
+function stepPage(direction: 1 | -1): boolean {
+  if (!enabled.value) return false
 
   const origin = animating ? target : window.scrollY
   const next = findNextStop(stops, origin, direction)
-  if (next === null) return
+  if (next === null) return false
 
   animateTo(next)
+  return true
 }
 
 function isEditable(target: EventTarget | null): boolean {
@@ -207,15 +212,8 @@ function onWheel(event: WheelEvent) {
   event.preventDefault()
 
   const now = performance.now()
-  const isNewGesture = now - lastWheelAt > QUIET_MS
+  const gap = now - lastWheelAt
   lastWheelAt = now
-
-  if (isNewGesture) {
-    wheelAccumulator = 0
-    wheelConsumed = false
-  }
-
-  if (wheelConsumed) return
 
   const unit =
     event.deltaMode === 1
@@ -224,21 +222,34 @@ function onWheel(event: WheelEvent) {
         ? window.innerHeight
         : 1
   const delta = event.deltaY * unit
+  const direction: 1 | -1 = delta > 0 ? 1 : -1
+  const isImpulse = Math.abs(delta) >= WHEEL_IMPULSE
 
-  if (
-    wheelAccumulator !== 0 &&
-    Math.sign(delta) !== Math.sign(wheelAccumulator)
-  ) {
+  // A deliberate new notch may chain quickly; small tail events need a longer
+  // silence before they can start another page.
+  if (gap > (isImpulse ? WHEEL_REARM_MS : WHEEL_SLOW_REARM_MS)) {
+    wheelConsumed = false
+  }
+
+  // Reversing direction mid-gesture should respond immediately.
+  if (wheelConsumed && direction !== lastWheelDirection && isImpulse) {
+    wheelConsumed = false
+  }
+
+  if (wheelAccumulator !== 0 && direction !== Math.sign(wheelAccumulator)) {
     wheelAccumulator = 0
   }
-  wheelAccumulator += delta
 
+  if (wheelConsumed) return
+
+  wheelAccumulator += delta
   if (Math.abs(wheelAccumulator) < WHEEL_THRESHOLD) return
 
-  const direction: 1 | -1 = wheelAccumulator > 0 ? 1 : -1
   wheelAccumulator = 0
+  if (!stepPage(direction)) return
+
   wheelConsumed = true
-  stepPage(direction)
+  lastWheelDirection = direction
 }
 
 function onKeyDown(event: KeyboardEvent) {
@@ -254,6 +265,12 @@ function onKeyDown(event: KeyboardEvent) {
       direction = 1
       break
     case 'PageUp':
+      direction = -1
+      break
+    case 'ArrowDown':
+      direction = 1
+      break
+    case 'ArrowUp':
       direction = -1
       break
     case ' ':
